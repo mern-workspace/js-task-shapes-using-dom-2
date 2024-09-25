@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.description {
+    width: 100%;
+}
+
+.description h1 {
+    text-align: center;
+    padding: 2em 0;
+}
+
+.shape-item .img-container img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.shapes-nav {
+    margin: 0 5em;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+}
+
+.shape-label {
+    text-align: center;
+}
+
+.shape-item {
+    padding-top: 5em;
+    transition: transform 0.3s ease;
+}
+
+.shape-item:hover {
+    scale: 1.105;
+}
+
+.form-container {
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    width: 40%;
+    margin: 20px auto;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.shape-form {
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    gap: 10px;
+}
+
+.input-label {
+    font-size: 32px;
+    display: block;
+    padding: 0.5em 0;
+    color: #333;
+    font-weight: bold;
+    /* margin-bottom: 0.5em; */
+}
+
+.shape-input {
+    padding: 12px 20px;
+    font-size: 16px;
+    width: 70%;
+    margin-left: 15%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    color: #333;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.shape-input:hover {
+    border-color: #999;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+}
+
+.shape-input:focus {
+    border-color: #007bff;
+    outline: none;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.submit-btn {
+    margin-top: 3em;
+    margin-left: 32.5%;
+    margin-bottom: 1.5em;
+    width: 35%;
+    padding: 12px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #218838;
+}
+
+.result-text {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin: 2em 0;
+}
+
+.start-over-btn {
+    margin: 1em 0;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.start-over-btn:hover {
+    background-color: #0056b3;
+}
